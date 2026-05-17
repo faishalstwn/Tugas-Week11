@@ -1,5 +1,4 @@
-import src.main.java.Counter;
-
+// Requires Java 8 or newer for compilation. Update Maven compiler source/target to 1.8 or later.
 public class Driver {
 
 	public static void main(String[] args) {
