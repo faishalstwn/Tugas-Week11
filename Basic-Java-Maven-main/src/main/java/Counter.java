@@ -1,11 +1,11 @@
-package src.main.java;
+
 
 public class Counter {
 
 	private int count;
 	
 	public Counter() {
-		this.reset();
+		count = 0;
 	}
 		
 	public void reset() {
@@ -13,7 +13,7 @@ public class Counter {
 	}
 	
 	public void increment() {
-		count++;
+		count = count + 2;
 	}
 	
 	public void decrement() {
